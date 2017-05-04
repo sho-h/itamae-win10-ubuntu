@@ -1,0 +1,20 @@
+target_user: "sho-h"
+
+rbenv:
+  user: "sho-h"
+  global:
+    2.4.1
+  versions:
+    - 2.2.7
+    - 2.3.4
+    - 2.4.1
+
+rbenv-default-gems:
+  default-gems:
+    - bundler
+    - rbenv-rehash
+    - bitclust-core
+    - bitclust-dev
+    - refe2
+    - homesick
+  install: true

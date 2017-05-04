@@ -1,0 +1,7 @@
+export RBENV_ROOT="/home/<%= node['rbenv']['user'] %>/.rbenv"
+export PATH="${RBENV_ROOT}/bin:${PATH}"
+if [ $SHELL = "/bin/zsh" ]; then
+  . ~/.zsh.d/940_rbenv.zsh
+else
+  eval "$(rbenv init -)"
+fi
