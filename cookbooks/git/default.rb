@@ -1,3 +1,6 @@
-package 'git' do
-  action :install
+
+%w(git tig).each do |pkg|
+  package pkg do
+    action :install
+  end
 end
