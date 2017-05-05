@@ -13,6 +13,7 @@ Itamae::Recipe::EvalContext.include(RecipeHelper)
   end
 end
 
+include_cookbook("go")
 include_cookbook("ruby")
 include_cookbook("dotfiles")
 
@@ -23,3 +24,7 @@ include_cookbook("rurema")
 include_cookbook("screen")
 include_cookbook("svn")
 include_cookbook("zsh")
+
+# GUI関連のセットアップ。
+include_cookbook("xming")
+include_cookbook("emacs")
