@@ -2,6 +2,7 @@
 %w(emacs24 cmigemo python).each do |pkg|
   package pkg do
     action :install
+    user 'root'
   end
 end
 

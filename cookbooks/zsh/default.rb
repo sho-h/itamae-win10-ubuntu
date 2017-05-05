@@ -1,5 +1,6 @@
 package 'zsh' do
   action :install
+  user 'root'
 end
 
 zsh_path = '/bin/zsh'

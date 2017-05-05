@@ -2,6 +2,7 @@
 
 package 'golang' do
   action :install
+  user 'root'
 end
 
 # TODO: pecoがインストールできないため、パッケージからインストールするなどする。

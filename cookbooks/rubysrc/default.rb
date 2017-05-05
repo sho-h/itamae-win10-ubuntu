@@ -25,6 +25,7 @@ end
 
 package 'git' do
   action :install
+  user 'root'
 end
 
 # TODO: gitリソースでブランチが指定できる方法がわかれば変更する。

@@ -10,6 +10,7 @@ Itamae::Recipe::EvalContext.include(RecipeHelper)
 %w(lv curl wget).each do |pkg|
   package pkg do
     action :install
+    user 'root'
   end
 end
 
