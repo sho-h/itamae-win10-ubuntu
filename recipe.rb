@@ -19,6 +19,7 @@ include_cookbook("dotfiles")
 
 # 以降の順番は入れ替わっても問題ない。
 include_cookbook("git")
+include_cookbook("peco")
 include_cookbook("rubysrc")
 include_cookbook("rurema")
 include_cookbook("screen")
